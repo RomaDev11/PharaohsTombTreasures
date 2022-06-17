@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/web_tomp"
+    app:startDestination="@id/splaskTomp">
+
+    <fragment
+        android:id="@+id/splaskTomp"
+        android:name="com.UCMobile.in.web.SplaskTomp"
+        android:label="fragment_splask_tomp"
+        tools:layout="@layout/fragment_splask_tomp" >
+        <action
+            android:id="@+id/action_splaskTomp_to_webTomp"
+            app:destination="@id/webTomp" />
+    </fragment>
+    <fragment
+        android:id="@+id/webTomp"
+        android:name="com.UCMobile.in.web.WebTomp"
+        android:label="fragment_web_tomp"
+        tools:layout="@layout/fragment_web_tomp" />
+</navigation>

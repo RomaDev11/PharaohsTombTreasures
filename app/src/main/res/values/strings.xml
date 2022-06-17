@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pharaoh\'s Tomb Treasures</string>
+    <string name="facebook_id">387174163361334</string>
+    <string name="facebook_token">j0jBDbfPH4OXFxpOCGcPBW476XU</string>
+    <string name="onesignal_id">d3ac13c0-9d5c-44a1-a014-0b3865931676</string>
+    <string name="appsfluer_id">KyeaSpht2ZGRs5PurwQwgVq</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

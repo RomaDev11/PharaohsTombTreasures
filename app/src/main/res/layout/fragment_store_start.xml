@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FrG.StoreStart"
+    android:background="@drawable/backgraund">
+    <Button
+        android:id="@+id/buttonStarthond"
+        android:fontFamily="@font/eater"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Buy a hint   10"
+        android:layout_marginTop="40dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+
+    <Button
+        android:id="@+id/buttonStarthind2"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eater"
+        android:text="Buy a hint two               10"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStarthond"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+
+    <Button
+        android:id="@+id/buttonStarthind3"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:fontFamily="@font/eater"
+        android:layout_height="wrap_content"
+        android:text="Wild               50"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStarthind2"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:fontFamily="@font/eater"
+        android:textSize="24dp"
+        android:textColor="#3A7334"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStarthond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

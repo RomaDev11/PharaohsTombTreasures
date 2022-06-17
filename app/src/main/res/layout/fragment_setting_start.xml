@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FrG.SettingStart"
+    android:background="@drawable/backgraund">
+
+    <Button
+        android:id="@+id/position4"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="One P."
+        android:textSize="20dp"
+        android:fontFamily="@font/eater"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B"
+        android:drawableRight="@drawable/st"
+        />
+
+    <Button
+        android:id="@+id/position2"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/st"
+        android:fontFamily="@font/eater"
+        android:text="Two P."
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/position4"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+
+    <Button
+        android:id="@+id/checkBox1"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/st"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/position2"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:fontFamily="@font/eater"
+        android:textColor="#C57B3A"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/checkBox1" />
+
+
+    <Button
+        android:id="@+id/positionStore"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:fontFamily="@font/eater"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/st"
+        android:text="Store"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        android:backgroundTint="#75FAFAFA"
+        android:textColor="#C57B3A"
+        app:strokeColor="#D8BA1B" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
